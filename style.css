@@ -1,0 +1,76 @@
+:root {
+  --white-color: #ffffff;
+}
+
+/* ОБЩИЕ СТИЛИ */
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  font-style: normal;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding-top: 126px;
+  padding-bottom: 128px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1002px;
+}
+
+/* HEADER */
+.page-header {
+  background-color: #643a79;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.container.header {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-list > li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.nav-link {
+  padding: 10px 20px;
+
+  color: var(--white-color);
+  font-weight: 400;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  border-radius: 5px;
+  background-color: purple;
+}
